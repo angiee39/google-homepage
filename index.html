@@ -17,19 +17,48 @@
             margin: auto;
             margin-top: 100px;
         }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
     
     </style>
 
 </head>
 
 <body>
+    <header>
+        <ul>
+            <li><a href="gmail.asp">Gmail</a></li>
+            <li><a href="images.asp">Images</a></li>
+        </ul>
+
+    </header>
+
     <div>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="center">
     </div>
 
     <br>
 
-    <input type="text" id="input" class="center">
-    
+    <form action="">
+        <input type="text" id="input" class="center">
+        <div align="center">
+            <button type="submit">Google Search</button>
+            <button type="submit">I'm Feeling Lucky</button>
+        </div>
+    </form>
+
+    <footer>
+        <ul>
+            <li><a href="advertising.asp">Advertising</a></li>
+            <li><a href="business.asp">Business</a></li>
+            <li><a href="how-search-works.asp">How Search works</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
