@@ -1,0 +1,1 @@
+Day 1: Starting off, a lot of confusion, a lot of googling even before starting. WISH ME LUCK!
