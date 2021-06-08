@@ -11,24 +11,24 @@
 
         a {
             text-decoration: none;
-            color: rgb(61, 61, 61);
+            color: rgb(97, 97, 97);
+            padding-left: 5px;
+            padding-right: 5px;
         }
 
         a:hover {
             text-decoration: underline;
+            color: rgb(15, 15, 15);
         }
 
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            text: none;
-          
         }
 
         li {
             display: inline;
-            
         }
 
         input {
@@ -105,6 +105,11 @@
             width: 100%;
             margin-bottom: 10px;
         }
+
+        #app {
+            padding-bottom: -10px;
+            margin-bottom: -20px;
+        }
     
     </style>
 
@@ -116,7 +121,7 @@
             <ul>
                 <li><a href="">Gmail</a></li>
                 <li><a href="">Images</a></li>
-                <li><a class="material-icons">apps</a></li>
+                <li><a id="app" class="material-icons">apps</a></li>
                 <li><button id="signin" type="submit">Sign in</button></li>
             </ul>
         </div>
